@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 1.125rem;
+}
+
+body {
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(89, 157, 180);
+}
+
+a:hover {
+  color: red;
+}
+
+a.active {
+  color: rgb(81, 184, 81);
+}
+
+header {
+  background: #000;
+  padding: 20px;
+}
+
+header img,
+header nav {
+  display: inline-block;
+}
+
+header nav {
+  vertical-align: top;
+  margin-top: 27px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+ul li:last-child {
+  margin-right: 0;
+}
+
+.divider {
+  display: inline-block;
+  width: calc(100% - 580px);
+}
+
+main {
+  min-height: 1000px;
+}
+
+.services-content {
+  display: inline-block;
+  width: 70%;
+}
+
+main aside {
+  display: inline-block;
+  width: 29.6%;
+  min-height: 1000px;
+  background: #232323;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+main aside h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #a9a9a9;
+  margin-bottom: 40px;
+}
+
+main aside ul li {
+  display: block;
+  margin: 0 0 10px 0;
+}
+
+#main-content {
+  padding: 40px;
+  vertical-align: top;
+  position: sticky;
+  top: 0;
+}
+
+.back-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 50px;
+  height: 50px;
+  background: #ededed;
+  border: 1px solid #ccc;
+  color: #ccc;
+  border-radius: 5px;
+}
+
+.back-to-top span {
+  font-size: 1.75rem;
+  position: absolute;
+  right: 17px;
+  bottom: 0px;
+}
+
+#main-content h1 {
+  font-size: 1.75rem;
+
+  text-align: center;
+  font-weight: 500;
+}
+
+footer {
+  background: #000;
+  color: #fff;
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+}
+
+.divider-footer {
+  display: block;
+  height: 2px;
+  width: 100%;
+  background: #ccc;
+  margin: 20px 0;
+}
